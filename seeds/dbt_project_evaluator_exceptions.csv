@@ -1,0 +1,2 @@
+fct_name,column_name,id_to_exclude,comment
+dim_dates,all,calendar_date,exclude dim_dates as generates dates for upstream models
