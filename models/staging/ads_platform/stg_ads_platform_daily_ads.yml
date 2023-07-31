@@ -13,7 +13,7 @@ models:
           - not_null
 
       - name: surrogate_key
-        description: '{{ doc("at_platform_surrogate_key") }}'
+        description: '{{ doc("ad_platform_surrogate_key") }}'
         tests:
           - not_null
           - unique

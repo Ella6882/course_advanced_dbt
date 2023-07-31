@@ -4,39 +4,39 @@ This file contains docs blocks for Bingeflix mart-level event tables.
 ## Dates
 This section contains documentation for dates.
 
-{% calendar_date %}
+{% docs calendar_date %}
 The calendar date.
 {% enddocs %}
 
-{% date_month %}
+{% docs date_month %}
 The first date of the calendar month.
 {% enddocs %}
 
-{% date_quarter %}
+{% docs date_quarter %}
 The first date of the calendar quarter.
 {% enddocs %}
 
-{% date_week %}
+{% docs date_week %}
 The start date of the calendar week (week starting on Monday).
 {% enddocs %}
 
-{% date_year %}
+{% docs date_year %}
 The first date of the calendar year.
 {% enddocs %}
 
-{% day_of_month %}
+{% docs day_of_month %}
 The day of the month.
 {% enddocs %}
 
-{% month_num %}
+{% docs month_num %}
 The month number (between 1 and 12).
 {% enddocs %}
 
-{% quarter_num %}
+{% docs quarter_num %}
 The quarter number (between 1 and 4).
 {% enddocs %}
 
-{% year_num %}
+{% docs year_num %}
 The year number (e.g. 2018).
 {% enddocs %}
 
