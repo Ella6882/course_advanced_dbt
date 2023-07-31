@@ -20,12 +20,12 @@ models:
           - not_null
 
       - name: phone_number
-        description: '{{ doc("bingeflix_phone_number") }}'
+        description: '{{ doc("bingeflix_user_phone_number") }}'
         tests:
           - not_null
 
       - name: deleted_at
-        description: '{{ doc("bingeflix_deleted_at") }}'
+        description: '{{ doc("bingeflix_user_deleted_at") }}'
 
       - name: username
         description: '{{ doc("bingeflix_user_username") }}'
