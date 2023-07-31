@@ -3,32 +3,32 @@ models:
     description: "The daily ad campaigns table."
     columns:
       - name: date
-        description: '{{ doc("bingeflix_ad_campaign_date") }}'
+        description: '{{ doc("ad_platform_campaign_date") }}'
         tests:
           - not_null
 
       - name: campaign_id
-        description: '{{ doc("bingeflix_ad_campaign_id") }}'
+        description: '{{ doc("ad_platform_campaign_id") }}'
         tests:
           - not_null
 
       - name: surrogate_key
-        description: '{{ doc("bingeflix_ad_surrogate_key") }}'
+        description: '{{ doc("at_platform_surrogate_key") }}'
         tests:
           - not_null
           - unique
 
       - name: spend
-        description: '{{ doc("bingeflix_ad_spend") }}'
+        description: '{{ doc("ad_platform_spend") }}'
         tests:
           - not_null
 
       - name: cpm
-        description: '{{ doc("bingeflix_ad_cpm") }}'
+        description: '{{ doc("ad_platform_cpm") }}'
         tests:
           - not_null
 
       - name: ctr
-        description: '{{ doc("bingeflix_ad_ctr") }}'
+        description: '{{ doc("ad_platform_ctr") }}'
         tests:
           - not_null
