@@ -1,3 +1,5 @@
+{{ config(tags=["weekly"]) }}
+
 WITH
 
 users AS (

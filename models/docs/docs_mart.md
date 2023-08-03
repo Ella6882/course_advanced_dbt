@@ -103,3 +103,11 @@ The Bingeflix user's age at acquisition.
 {% docs bingeflix_user_current_age %}
 The Bingeflix user's current age. Derived from Bingeflix user's birthdate.
 {% enddocs %}
+
+{% docs bingeflix_user_first_subscription_starts_at %}
+Date of the first subscription bought by Bingeflix user.
+{% enddocs %}
+
+{% docs bingeflix_user_count_of_subscriptions %}
+Count of subscriptions a Bingeflix user has had.
+{% enddocs %}

@@ -1,3 +1,5 @@
+{{ config(tags=["daily"]) }}
+
 WITH
 
 final AS (
