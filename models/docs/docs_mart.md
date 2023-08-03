@@ -52,7 +52,7 @@ The number of times the user logged out during the specified session.
 {% enddocs %}
 
 {% docs bingeflix_session_video_watched_count %}
-The number of times the user watched videos during the specified session. 
+The number of times the user watched videos during the specified session.
 {% enddocs %}
 
 ## MRR
@@ -97,10 +97,9 @@ The cadence of the billing period for the subscription plan (e.g., monthly, annu
 This section contains documentation for Bingeflix dim_users.
 
 {% docs bingeflix_user_age_at_acquisition %}
-The Bingeflix user's age at acquisition. 
+The Bingeflix user's age at acquisition.
 {% enddocs %}
 
 {% docs bingeflix_user_current_age %}
 The Bingeflix user's current age. Derived from Bingeflix user's birthdate.
 {% enddocs %}
-
