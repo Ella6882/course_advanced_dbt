@@ -27,3 +27,8 @@ models:
         tests:
           - not_null
           - unique
+
+      - name: count_30_periods_event_id
+        description: '{{ doc("bingeflix_count_30_periods_event_id") }}'
+        tests:
+          - not_null

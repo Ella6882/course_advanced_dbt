@@ -55,6 +55,10 @@ The number of times the user logged out during the specified session.
 The number of times the user watched videos during the specified session.
 {% enddocs %}
 
+{% docs bingeflix_count_30_periods_event_id %}
+30-day rolling event count for a Bingeflix user.
+{% enddocs %}
+
 ## MRR
 This section contains documentation for Bingeflix MRR.
 
