@@ -18,3 +18,13 @@ macros:
       - name: order_by
         type: string
         description: Column used for ordering.
+
+  - name: truncate_to_date
+    description: Truncates timestamp to a speecified aggregation, expressed as a date.
+    arguments:
+      - name: date_aggregation
+        type: string
+        description: The aggregation type to be used. Default is month.
+      - name: column_name
+        type: string
+        description: Column name. If not specified, default is current date.
