@@ -28,3 +28,10 @@ macros:
       - name: column_name
         type: string
         description: Column name. If not specified, default is current date.
+
+  - name: column_is_positive
+    description: A test that returns records where the column_name is negative.
+    arguments:
+      - name: column_name
+        type: integer
+        description: Checks if the column_name is negative.

@@ -7,6 +7,9 @@ models:
         tests:
           - not_null
           - unique
+          #- dbt_utils.equality:
+          #  compare_model: ref('unit_test_expected_output_mrr')
+          #  tags: ['unit_testing']
 
       - name: date_month
         description: '{{ doc("date_month") }}'
