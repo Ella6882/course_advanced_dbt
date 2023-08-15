@@ -1,15 +1,16 @@
 models:
   - name: rpt_mrr
     description: This model contains calculations for the monthly recurring revenue generated per user and subscription for each month.
+    tests:
+        - dbt_utils.equality:
+            compare_model: ref('unit_test_expected_output_mrr')
+            tags: ['unit_testing']
     columns:
       - name: surrogate_key
         description: '{{ doc("bingeflix_mrr_surrogate_key") }}'
         tests:
           - not_null
           - unique
-          #- dbt_utils.equality:
-          #  compare_model: ref('unit_test_expected_output_mrr')
-          #  tags: ['unit_testing']
 
       - name: date_month
         description: '{{ doc("date_month") }}'

@@ -33,5 +33,18 @@ macros:
     description: A test that returns records where the column_name is negative.
     arguments:
       - name: column_name
-        type: integer
+        type: string
         description: Checks if the column_name is negative.
+      - name: model_name
+        type: string
+        description: Checks if the column_name for a given model is negative.
+
+  - name: unit_testing_select_table
+    description: A test that configure the selection of inputs to your model for unit testing.
+    arguments:
+      - name: source_table
+        type: string
+        description: Name of source table.
+      - name: model_name
+        type: string
+        description: Name of test table.
