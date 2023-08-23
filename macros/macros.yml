@@ -48,3 +48,16 @@ macros:
       - name: model_name
         type: string
         description: Name of test table.
+
+  - name: look_back_window
+    description: Macro to account for late-arriving data and adds rows in a subsequent build in an incremental model.
+    arguments:
+      - name: unique_key
+        type: string
+        description: Unique key.
+      - name: lookback_window
+        type: integer
+        description: Set the time range for capturing missing data in the last X intervals in the model. Default is set to 3.
+      - name: interval
+        type: string
+        description: Default is set to day.
